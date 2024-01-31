@@ -44,6 +44,18 @@
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'GooglePlay|AnyCPU' ">
+    <DebugType></DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\GooglePlay</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <JavaMaximumHeapSize></JavaMaximumHeapSize>
+    <AndroidEnableSGenConcurrent>false</AndroidEnableSGenConcurrent>
+    <AndroidUseAapt2>false</AndroidUseAapt2>
+    <AndroidManifest></AndroidManifest>
+    <LangVersion>Default</LangVersion>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
@@ -59,6 +71,12 @@
     <PackageReference Include="Mobile.BuildTools">
       <Version>2.0.245</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' != 'GooglePlay' ">
+    <PackageReference Include="Microsoft.AppCenter.Distribute" Version="5.0.3" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'GooglePlay' ">
+    <PackageReference Include="Microsoft.AppCenter.DistributePlay" Version="5.0.3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

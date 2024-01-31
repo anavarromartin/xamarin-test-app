@@ -11,16 +11,21 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		GooglePlay|Any CPU = GooglePlay|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6008B1F1-ED31-43BF-B344-01C907BBD512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6008B1F1-ED31-43BF-B344-01C907BBD512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6008B1F1-ED31-43BF-B344-01C907BBD512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6008B1F1-ED31-43BF-B344-01C907BBD512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6008B1F1-ED31-43BF-B344-01C907BBD512}.GooglePlay|Any CPU.ActiveCfg = Debug|Any CPU
+		{6008B1F1-ED31-43BF-B344-01C907BBD512}.GooglePlay|Any CPU.Build.0 = Debug|Any CPU
 		{FFB0E04A-B83A-4600-AAEB-016462682363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FFB0E04A-B83A-4600-AAEB-016462682363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB0E04A-B83A-4600-AAEB-016462682363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB0E04A-B83A-4600-AAEB-016462682363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB0E04A-B83A-4600-AAEB-016462682363}.GooglePlay|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB0E04A-B83A-4600-AAEB-016462682363}.GooglePlay|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
